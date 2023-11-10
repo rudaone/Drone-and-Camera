@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri';
+}
+
+main{
+    margin: 15px auto;
+    font-size: 15px;
+}
+
+.item-cards{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.item-card{
+    width: 555px;
+    height: 296px;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0,  0, 0.1)),linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    color: #F4F9FC;
+    display: flex;
+    align-items:center;
+    position: relative; 
+}
+
+.item-card-offer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.item-card__picture{
+    width: 275px;
+    height: 231px;
+}
+
+.item-card-offer__text{
+    height: 27px;
+    font-weight: 500;
+    color: rgba(244, 249, 252, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.item-card-offer__title{
+    margin-top: 5px;
+    height: 81px;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.item-card-offer__link{ 
+    margin-top: 7px;
+    width: 78px;
+    height: 27px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.item-card-offer__link:hover{
+    color: rgba(244, 249, 252, 0.6);
+}
+
+.item-card-picture__camera{
+    display: flex;
+    position: absolute;
+    left: 270px;
+    top: 30px;
+}
+
+.item-card-picture__drone{
+    display: flex;
+    position: absolute;
+    left: 250px;
+}
